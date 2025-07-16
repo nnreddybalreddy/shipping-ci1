@@ -10,6 +10,8 @@ public class Calculator {
         this.longitude = longitude;
     }
 
+
+    
     Calculator(City city) {
         this.latitude = city.getLatitude();
         this.longitude = city.getLongitude();
